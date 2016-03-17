@@ -1,6 +1,6 @@
 {
-	"name": "kickbox/kickbox",
-	"version": "2.0.0",
+	"name": "servicescout/kickbox-php",
+	"version": "2.1.1",
 	"description": "Official kickbox API library client for PHP",
 	"homepage": "http://kickbox.io",
 	"authors": [
@@ -8,12 +8,17 @@
 			"name": "Chaitanya Surapaneni",
 			"email": "chaitanya.surapaneni@kickbox.io",
 			"homepage": "https://github.com/kickboxio"
-		}
+		},
+    {
+			"name": "Blaine Jester",
+			"email": "bjester@servicescout.com",
+			"homepage": "https://github.com/servicescout"
+    }
 	],
   "keywords": ["free", "email", "validation", "kickbox", "service", "verification", "sendex"],
 	"autoload": {
 		"psr-0": {
-			"Kickbox\\": "lib/"
+			"ServiceScout\\Kickbox\\": "lib/"
 		}
 	},
 	"require": {
