@@ -9,16 +9,16 @@
 			"email": "chaitanya.surapaneni@kickbox.io",
 			"homepage": "https://github.com/kickboxio"
 		},
-    {
+		{
 			"name": "Blaine Jester",
 			"email": "bjester@servicescout.com",
 			"homepage": "https://github.com/servicescout"
-    }
+		}
 	],
-  "keywords": ["free", "email", "validation", "kickbox", "service", "verification", "sendex"],
+  	"keywords": ["free", "email", "validation", "kickbox", "service", "verification", "sendex"],
 	"autoload": {
 		"psr-0": {
-			"ServiceScout\\Kickbox\\": "lib/"
+			"Kickbox\\": "lib/"
 		}
 	},
 	"require": {
